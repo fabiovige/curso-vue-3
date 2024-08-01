@@ -1,13 +1,17 @@
 <template>
-  <h1>{{ name }}</h1>
+  <h1>{{ title }}</h1>
+  <h2>{{ subtitle }}</h2>
+  <p>{{ description }}</p>
 </template>
 
 <script>
 export default {
-  name: "PrimeiroComponente",
+  name: 'PrimeiroComponente',
   data() {
     return {
-      name: "Olá Mundo pelo componente",
+      title: 'Fabio Vige',
+      subtitle: 'Desenvolvedor Web',
+      description: 'Simplicidade e funcionalidades caminham juntos',
     };
   },
 };
