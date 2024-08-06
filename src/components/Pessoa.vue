@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>Componente Pessoa</h2>
-    <InfoPessoa />
+    <InfoPessoa :email="email" />
   </div>
 </template>
 
@@ -16,6 +16,7 @@ export default {
   data() {
     return {
       name: 'Nega',
+      email: 'fabiovigedev@gmail.com'
     };
   },
 };

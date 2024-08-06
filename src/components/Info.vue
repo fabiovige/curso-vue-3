@@ -1,6 +1,7 @@
 <template>
   <div>
     <h3>Componente Info</h3>
+    <p><strong>Email via props:</strong> {{ email }}</p>
     <p v-if="esta_trabalhando"><strong>Status:</strong> Estou trabalhando nesse momento</p>
     <p v-else>Buscando oportunidades</p>
 
@@ -29,6 +30,13 @@ export default {
   name: 'InfoPessoa',
   components: {
     Picture,
+  },
+  
+  props: {
+    email: {
+      type: String,
+      required: true,
+    },
   },
   data() {
     return {
