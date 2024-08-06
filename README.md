@@ -1,4 +1,4 @@
-# projeto_1
+# curso vue 3
 
 ## Project setup
 ```

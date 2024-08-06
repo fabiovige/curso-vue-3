@@ -18,8 +18,8 @@ export default {
     },
     methods: {
         trocarImagem() {
-            console.log('Imagem trocada');
             this.url = 'https://via.placeholder.com/150/0000FF/808080?Text=Digital.com';
+            console.log('Imagem trocada');
         }
     }
 }
